@@ -1,4 +1,3 @@
-# hw21_1.py - 카운트다운 타이머 (PySimpleGUI)
 import PySimpleGUI as sg
 import time
 
