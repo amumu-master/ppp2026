@@ -1,4 +1,3 @@
-# hw21_2.py - 구구단 퀴즈 (PySimpleGUI)
 import PySimpleGUI as sg
 import random
 
