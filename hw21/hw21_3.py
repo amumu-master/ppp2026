@@ -19,7 +19,7 @@ layout = [
     [sg.Text("단어 맞추기", font=("Arial", 14, "bold"), justification="center", expand_x=True)],
     [sg.Text(display(hidden), key="-WORD-", font=("Courier", 22, "bold"), justification="center", expand_x=True)],
     [sg.Text("남은 기회:", size=(8,1)), sg.Text(str(trials), key="-TRIAL-", font=("Arial", 12, "bold"), text_color="red")],
-    [sg.Text("글자 입력:", size=(8,1)), sg.Input(key="-LETTER-", size=(5,1), max_size=(5,1)), sg.Button("입력", bind_return_key=True)],
+    [sg.Text("글자 입력:", size=(8,1)), sg.Input(key="-LETTER-", size=(5,1)), sg.Button("입력", bind_return_key=True)],
     [sg.Text("", key="-MSG-", justification="center", expand_x=True)],
     [sg.Button("새 게임", size=(10,1)), sg.Button("종료", size=(10,1))],
 ]
