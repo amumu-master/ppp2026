@@ -1,4 +1,3 @@
-# hw21_3.py - 단어 맞추기 게임 (PySimpleGUI)
 import PySimpleGUI as sg
 import random
 
