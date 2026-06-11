@@ -1,4 +1,3 @@
-# hw21_4.py - 로또 번호 생성기 (PySimpleGUI)
 import PySimpleGUI as sg
 import random
 
